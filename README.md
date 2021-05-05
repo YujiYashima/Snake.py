@@ -2,8 +2,6 @@
 <img src="https://images-na.ssl-images-amazon.com/images/I/81GvBHBtIlL.jpg">
 </center>
 
----
-
 # Python.io
 
   Snake Game made in Python and Pygame during the Kenzie Academy development week.
@@ -27,7 +25,7 @@ Clone the repository and install the dependencies.
 # To clone the repository
 git clone https://github.com/YujiYashima/Python.io.git
 
-# g=Go into the folder
+# Go into the folder
 cd Python.io/
 
 # Install the pygame
@@ -61,7 +59,7 @@ Get points by eating the apples and be careful not to hit the wall!!
 <h2 id="shots">:camera: ScreenShots</h2> 
 
 <center>
-    <img src="public/Initial.png">
+    <img src="public/Initial.PNG">
 </center><br>
 
 <center>
