@@ -23,8 +23,8 @@ dx = 0
 dy = 0
 
 # Apples Values
-appleX = round(random.randrange(0, 500 - d) / 20) * 20
-appleY = round(random.randrange(0, 500 - d) / 20) * 20
+appleX = round(random.randrange(0 + d, 550 - d) / 20) * 20
+appleY = round(random.randrange(0 + d, 550 - d) / 20) * 20
 appleColor = [(255, 165, 0), (255, 0, 0), (255, 255, 0)]
 color = 0
 
@@ -79,8 +79,8 @@ def checkApples(dx, dy, appleX, appleY, snakeBody, color):
 
     if head[0] == appleX and head[1] == appleY:
         snakeBody.append([newX, newY])
-        appleX = round(random.randrange(0, 500 - d) / 20) * 20
-        appleY = round(random.randrange(0, 500 - d) / 20) * 20
+        appleX = round(random.randrange(0 + d, 550 - d) / 20) * 20
+        appleY = round(random.randrange(0 + d, 550 - d) / 20) * 20
         color = round(random.randrange(0, 3))
 
     pygame.draw.rect(screen, appleColor[color], [appleX, appleY, d, d])
